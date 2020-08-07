@@ -5,12 +5,12 @@
   "offlinePenalty": 0,
 
   "badRequest": {
-    "active": false,
-    "period": 5,
+    "active": true,
+    "period": 10,
     "modes": [0,1,2,3,4,5,6,7,8,9,10]
   },
 
   "taxes": {
-    "SK": "function(price) { if(price>2000) return price * 1.18; else return price * 1.18; }"
+    "UK": "function(price) { if(price>2000) return price * 1.21; else return price * 1.05; }"
   }
 }
