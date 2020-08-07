@@ -11,6 +11,6 @@
   },
 
   "taxes": {
-    "SK": "function(price) { if(price>2000) return price * 1.18; else return price * 1.18; }"
+    "UK": "function(price) { if(price>2000) return price * 1.21; else return price * 1.05; }"
   }
 }
